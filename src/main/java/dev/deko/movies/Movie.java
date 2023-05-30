@@ -20,13 +20,12 @@ public class Movie {
     private String imdbId;
     private String title;
     private String releaseDate;
-    private String trailerlink;
     private String poster;
     private String trailerLink;
     private List<String> genres;
     private List<String> backdrops;
     @DocumentReference
-    private List<Review> reviewIds;
+    private List<Review> reviews;
 
     public Movie(String imdbId, String title, String releaseDate, String trailerLink, String poster, List<String> backdrops, List<String> genres) {
         this.imdbId = imdbId;
