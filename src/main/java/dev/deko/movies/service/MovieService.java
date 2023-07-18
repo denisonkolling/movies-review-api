@@ -1,6 +1,7 @@
-package dev.deko.movies;
+package dev.deko.movies.service;
 
-import org.bson.types.ObjectId;
+import dev.deko.movies.model.Movie;
+import dev.deko.movies.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

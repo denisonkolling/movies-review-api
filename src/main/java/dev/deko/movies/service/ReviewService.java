@@ -1,10 +1,13 @@
-package dev.deko.movies;
+package dev.deko.movies.service;
+import dev.deko.movies.model.Movie;
+import dev.deko.movies.model.Review;
+import dev.deko.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
-import java.util.List;
+
 import java.time.LocalDateTime;
 
 @Service

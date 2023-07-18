@@ -1,6 +1,7 @@
-package dev.deko.movies;
+package dev.deko.movies.controller;
 
-import org.bson.types.ObjectId;
+import dev.deko.movies.service.MovieService;
+import dev.deko.movies.model.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

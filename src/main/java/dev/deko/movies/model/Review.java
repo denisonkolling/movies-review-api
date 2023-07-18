@@ -1,4 +1,4 @@
-package dev.deko.movies;
+package dev.deko.movies.model;
 
 
 import lombok.AllArgsConstructor;

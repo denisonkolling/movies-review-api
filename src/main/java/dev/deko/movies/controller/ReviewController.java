@@ -1,4 +1,6 @@
-package dev.deko.movies;
+package dev.deko.movies.controller;
+import dev.deko.movies.service.ReviewService;
+import dev.deko.movies.model.Review;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
